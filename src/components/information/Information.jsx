@@ -43,7 +43,8 @@ const Information = () => {
                   </label>
                 </div>
               </div>
-              <textarea
+              <textarea 
+              className="textarea"
                 cols="64"
                 rows="3"
                 placeholder="Комментарий"
