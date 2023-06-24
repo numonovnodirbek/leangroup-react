@@ -1,0 +1,39 @@
+.leangroup__title {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #2c2d2e;
+  padding-top: 40px;
+  padding-bottom: 32px;
+  span {
+    color: #ef7c00;
+  }
+}
+.leangroup__block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.leangroup__content-block {
+  max-width: 552px;
+  margin-left: 30px;
+}
+.leangroup__text {
+  padding-top: 25px;
+}
+.leangroup__text:nth-child(1) {
+  padding-top: 0;
+}
+.leangroup__img {
+  max-width: 552px;
+  cursor: pointer;
+}
+.leangroup__text {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #2c2d2e;
+}

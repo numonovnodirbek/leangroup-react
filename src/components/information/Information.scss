@@ -1,0 +1,107 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  display: none;
+  margin: 0;
+}
+
+.information__block {
+  background-image: url("../../assets/images/information-bcg-img.png");
+  background-repeat: no-repeat;
+  filter: drop-shadow(0px 4px 32px rgba(0, 16, 61, 0.16));
+  border-radius: 10px;
+  margin-bottom: 80px;
+}
+.information__title {
+  max-width: 632px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: #2c2d2e;
+  padding: 24px 0 16px 20px;
+}
+.information__title span {
+  color: #ef7c00;
+}
+.information__text {
+  max-width: 400px;
+  padding: 0 0 36px 20px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #2c2d2e;
+}
+.people__logo,
+.phone__logo {
+  width: 15px;
+  margin-left: 13px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+label {
+  display: flex;
+  align-items: center;
+}
+input {
+  border: none;
+  outline: none;
+  margin-left: 12px;
+  padding: 10px 12px;
+  border-left: 1px solid rgba(0, 16, 61, 0.12);
+}
+input::placeholder {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #919399;
+}
+.information__form-control {
+  margin-left: 20px;
+  border: 1px solid rgba(0, 16, 61, 0.12);
+  border-radius: 4px;
+  max-width: 250px;
+}
+.information__form-control:nth-child(2) {
+  margin-left: 12px;
+}
+.information__input-list {
+  display: flex;
+  margin-bottom: 12px;
+}
+textarea::placeholder {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #919399;
+}
+textarea {
+  border: 1px solid rgba(0, 16, 61, 0.12);
+  border-radius: 4px;
+  outline: none;
+  padding-top: 10px;
+  padding-left: 12px;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+.information__form-btn {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  border: none;
+  background: #ef7c00;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-left: 20px;
+  margin-top: 12px;
+  margin-bottom: 36px;
+  &:hover {
+    transition: 0.4s;
+    background: #ffffff;
+    color: #ef7c00;
+  }
+}
